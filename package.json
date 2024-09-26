@@ -23,15 +23,16 @@
   ],
   "dependencies": {
     "node-addon-api": "^8.1.0",
+    "node-gyp": "^10.2.0",
     "node-gyp-build": "^4.8.2"
   },
   "peerDependencies": {
     "tree-sitter": "^0.21.1"
   },
   "devDependencies": {
-    "tree-sitter-cli": "0.23.0",
+    "prebuildify": "^6.0.1",
     "prettier": "3.0.0-alpha.6",
-    "prebuildify": "^6.0.1"
+    "tree-sitter-cli": "0.23.0"
   },
   "scripts": {
     "install": "node-gyp-build",
@@ -49,5 +50,6 @@
       "highlights": "queries/highlights.scm",
       "locals": "queries/locals.scm"
     }
-  ]
+  ],
+  "packageManager": "yarn@4.2.2+sha224.1e50daf19e5e249a025569752c60b88005fddf57d10fcde5fc68b88f"
 }
