@@ -35,3 +35,11 @@ dist/
 *.wasm
 *.obj
 *.o
+
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/patches
+.yarn/install-state.gz
